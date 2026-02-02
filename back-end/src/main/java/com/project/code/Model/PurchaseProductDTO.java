@@ -1,5 +1,10 @@
 package com.project.code.Model;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+import java.util.List;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 
 public class PurchaseProductDTO {
     private Long id;
